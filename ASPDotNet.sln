@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCDemo", "MVCDemo\MVCDemo.csproj", "{4378F917-078C-4659-AAEC-3FE422750F96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiWithHardcodedValues", "WebApiWithHardcodedValues\WebApiWithHardcodedValues.csproj", "{A242A04B-0F71-46A4-9DE9-E19216233AC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreCodeFirst", "EFCoreCodeFirst\EFCoreCodeFirst.csproj", "{04C820DA-7816-47B1-A4C0-1C0838240629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreDatabaseFirst", "EFCoreDatabaseFirst\EFCoreDatabaseFirst.csproj", "{A593E3ED-2339-4F9A-891E-A150E6AC744B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCWithEfCore", "MVCWithEfCore\MVCWithEfCore.csproj", "{29D026DD-B1C6-42F3-869A-263BBD02D4BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{20FCF9B6-2DFB-485F-A440-2B6F90CA37DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoleBasedAuthWithJWT", "RoleBasedAuthWithJWT\RoleBasedAuthWithJWT.csproj", "{06DBB5C6-1483-47BD-9A80-8117C890D3EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4378F917-078C-4659-AAEC-3FE422750F96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4378F917-078C-4659-AAEC-3FE422750F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4378F917-078C-4659-AAEC-3FE422750F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4378F917-078C-4659-AAEC-3FE422750F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A242A04B-0F71-46A4-9DE9-E19216233AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A242A04B-0F71-46A4-9DE9-E19216233AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A242A04B-0F71-46A4-9DE9-E19216233AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A242A04B-0F71-46A4-9DE9-E19216233AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C820DA-7816-47B1-A4C0-1C0838240629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C820DA-7816-47B1-A4C0-1C0838240629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C820DA-7816-47B1-A4C0-1C0838240629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C820DA-7816-47B1-A4C0-1C0838240629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A593E3ED-2339-4F9A-891E-A150E6AC744B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A593E3ED-2339-4F9A-891E-A150E6AC744B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A593E3ED-2339-4F9A-891E-A150E6AC744B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A593E3ED-2339-4F9A-891E-A150E6AC744B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D026DD-B1C6-42F3-869A-263BBD02D4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D026DD-B1C6-42F3-869A-263BBD02D4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D026DD-B1C6-42F3-869A-263BBD02D4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D026DD-B1C6-42F3-869A-263BBD02D4BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20FCF9B6-2DFB-485F-A440-2B6F90CA37DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FCF9B6-2DFB-485F-A440-2B6F90CA37DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FCF9B6-2DFB-485F-A440-2B6F90CA37DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FCF9B6-2DFB-485F-A440-2B6F90CA37DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DBB5C6-1483-47BD-9A80-8117C890D3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DBB5C6-1483-47BD-9A80-8117C890D3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DBB5C6-1483-47BD-9A80-8117C890D3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DBB5C6-1483-47BD-9A80-8117C890D3EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

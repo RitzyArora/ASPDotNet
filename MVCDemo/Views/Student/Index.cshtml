@@ -1,0 +1,27 @@
+﻿@model IEnumerable<MVCDemo.Models.Student>
+<h1>Student Table</h1>
+<table>
+    <thead>
+        <tr>
+            <th>Student Id</th>
+            <th>Student Name</th>
+            <th>Student Age</th>
+            <th>Student Marks</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var student in Model)
+        {
+            <tr>
+                <td>@student.StudentID</td>
+                <td>@student.StudentName</td>
+                <td>@student.StudentAge</td>
+                <td>@student.StudentMarks</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<h2>@ViewData["Message"]</h2>
+<h3>@ViewBag.Greeting</h3>
+
+<partial name="_Footer">
